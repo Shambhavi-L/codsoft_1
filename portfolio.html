@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #fbe1f8;
+        padding: 20px;
+        background-image: url('portfoliobg1.jpeg');
+        background-size: cover; 
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    
+    header {
+        background-color: #3f3f3f;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .about-content {
+        display: flex;
+        align-items: center;
+      }
+      
+      .about-image {
+        float: right;
+        margin-left: 275px;
+      }
+      
+      .about-image img {
+        width: 150px; /* Adjust size as needed */
+        border-radius: 10%; /* Make the image round */
+      }
+      
+    header h1 {
+        font-size: 2em;
+    }
+    
+    nav ul {
+        list-style: none;
+      }
+      
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+      }
+      
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+    
+    section {
+        margin: 20px 0;
+    }
+    
+    section h2 {
+        color: #333;
+    }
+    
+    .project {
+        background-color: #fff;
+        opacity: 0.8;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+    .download-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      
+      .download-button:hover {
+        background-color: #0056b3;
+      }
+      
+    </style>
+</head>
+<body>
+  <header>
+    <h1>L. SHAMBHAVI</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      
+      <div class="about-text">
+        <p>I am Shambhavi, currently pursuing my 2nd year in Cyber Security at PSG College of Technology.<br>Over the past two years I have learnt the basics of cyber security and programming languages like C, C++, Python, Java and SQL.<br>I am interested in developing web pages using HTML and CSS.</p>
+      </div>
+      <div class="about-image">
+        <img src="profile-pic.jpg" alt="My Profile Picture">
+      </div>
+    </div>
+  </section>
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <p>C<br>C++<br>Java</p>
+    </div>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Keylogger</h3>
+            <p>Developed a keylogger project involving email and whatsapp communication using Python</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: CineReserve</h3>
+            <p>Developed an online movie ticket booking site, CineReserve, using HTML, CSS, MySql and PHP</p>
+        </div>
+        <div class="project">
+            <h3>Project 3: Automatic Gate System</h3>
+            <p>Created an automatic railway gate system using Arduino</p>
+        </div>
+        <div class="project">
+            <h3>Project 4: Job Nest</h3>
+            <p>Developed a job portal, Job Nest, using HTML, CSS and Javascript.</p>
+        </div>
+        <div class="project">
+            <h3>Project 5: Notepad</h3>
+            <p>Simulation of Notepad using C++</p>
+        </div>
+  </section>
+
+  <section id="resume">
+    <div class = "project">
+    <h2>Resume</h2>
+    <p>You can download my resume to learn more about my skills and experience.</p>
+    <a href="Resume.pdf" download="Resume.pdf" class="download-button">Download Resume</a>
+    </div>
+  </section>  
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me<br>via email at <a href="skssham02@gmail.com">skssham02@gmail.com</a>.<br>via phone on 8095943626</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio</p>
+  </footer>
+</body>
+</html>
+
+
